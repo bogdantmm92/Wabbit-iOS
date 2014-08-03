@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2D05A61984B4D500608275 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D05A51984B4D500608275 /* AppDelegate.swift */; };
+		EB2D05A81984B4D500608275 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D05A71984B4D500608275 /* RootViewController.swift */; };
+		EB2D05AA1984B4D500608275 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D05A91984B4D500608275 /* DataViewController.swift */; };
+		EB2D05AC1984B4D500608275 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D05AB1984B4D500608275 /* ModelController.swift */; };
+		EB2D05AF1984B4D500608275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D05AD1984B4D500608275 /* Main.storyboard */; };
+		EB2D05B11984B4D500608275 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2D05B01984B4D500608275 /* Images.xcassets */; };
+		EB2D05BD1984B4D500608275 /* WabbitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D05BC1984B4D500608275 /* WabbitTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2D05B71984B4D500608275 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2D05981984B4D500608275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2D059F1984B4D500608275;
+			remoteInfo = Wabbit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2D05A01984B4D500608275 /* Wabbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wabbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2D05A41984B4D500608275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2D05A51984B4D500608275 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2D05A71984B4D500608275 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		EB2D05A91984B4D500608275 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		EB2D05AB1984B4D500608275 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		EB2D05AE1984B4D500608275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2D05B01984B4D500608275 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB2D05B61984B4D500608275 /* WabbitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WabbitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2D05BB1984B4D500608275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2D05BC1984B4D500608275 /* WabbitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WabbitTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2D059D1984B4D500608275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D05B31984B4D500608275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2D05971984B4D500608275 = {
+			isa = PBXGroup;
+			children = (
+				EB2D05A21984B4D500608275 /* Wabbit */,
+				EB2D05B91984B4D500608275 /* WabbitTests */,
+				EB2D05A11984B4D500608275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2D05A11984B4D500608275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D05A01984B4D500608275 /* Wabbit.app */,
+				EB2D05B61984B4D500608275 /* WabbitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2D05A21984B4D500608275 /* Wabbit */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D05A51984B4D500608275 /* AppDelegate.swift */,
+				EB2D05A71984B4D500608275 /* RootViewController.swift */,
+				EB2D05A91984B4D500608275 /* DataViewController.swift */,
+				EB2D05AB1984B4D500608275 /* ModelController.swift */,
+				EB2D05AD1984B4D500608275 /* Main.storyboard */,
+				EB2D05B01984B4D500608275 /* Images.xcassets */,
+				EB2D05A31984B4D500608275 /* Supporting Files */,
+			);
+			path = Wabbit;
+			sourceTree = "<group>";
+		};
+		EB2D05A31984B4D500608275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D05A41984B4D500608275 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB2D05B91984B4D500608275 /* WabbitTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D05BC1984B4D500608275 /* WabbitTests.swift */,
+				EB2D05BA1984B4D500608275 /* Supporting Files */,
+			);
+			path = WabbitTests;
+			sourceTree = "<group>";
+		};
+		EB2D05BA1984B4D500608275 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D05BB1984B4D500608275 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2D059F1984B4D500608275 /* Wabbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2D05C01984B4D500608275 /* Build configuration list for PBXNativeTarget "Wabbit" */;
+			buildPhases = (
+				EB2D059C1984B4D500608275 /* Sources */,
+				EB2D059D1984B4D500608275 /* Frameworks */,
+				EB2D059E1984B4D500608275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wabbit;
+			productName = Wabbit;
+			productReference = EB2D05A01984B4D500608275 /* Wabbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2D05B51984B4D500608275 /* WabbitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2D05C31984B4D500608275 /* Build configuration list for PBXNativeTarget "WabbitTests" */;
+			buildPhases = (
+				EB2D05B21984B4D500608275 /* Sources */,
+				EB2D05B31984B4D500608275 /* Frameworks */,
+				EB2D05B41984B4D500608275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2D05B81984B4D500608275 /* PBXTargetDependency */,
+			);
+			name = WabbitTests;
+			productName = WabbitTests;
+			productReference = EB2D05B61984B4D500608275 /* WabbitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2D05981984B4D500608275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bogdan Tirca";
+				TargetAttributes = {
+					EB2D059F1984B4D500608275 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EB2D05B51984B4D500608275 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EB2D059F1984B4D500608275;
+					};
+				};
+			};
+			buildConfigurationList = EB2D059B1984B4D500608275 /* Build configuration list for PBXProject "Wabbit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2D05971984B4D500608275;
+			productRefGroup = EB2D05A11984B4D500608275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2D059F1984B4D500608275 /* Wabbit */,
+				EB2D05B51984B4D500608275 /* WabbitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2D059E1984B4D500608275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D05AF1984B4D500608275 /* Main.storyboard in Resources */,
+				EB2D05B11984B4D500608275 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D05B41984B4D500608275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2D059C1984B4D500608275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D05A81984B4D500608275 /* RootViewController.swift in Sources */,
+				EB2D05AC1984B4D500608275 /* ModelController.swift in Sources */,
+				EB2D05AA1984B4D500608275 /* DataViewController.swift in Sources */,
+				EB2D05A61984B4D500608275 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D05B21984B4D500608275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D05BD1984B4D500608275 /* WabbitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2D05B81984B4D500608275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2D059F1984B4D500608275 /* Wabbit */;
+			targetProxy = EB2D05B71984B4D500608275 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2D05AD1984B4D500608275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2D05AE1984B4D500608275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2D05BE1984B4D500608275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2D05BF1984B4D500608275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2D05C11984B4D500608275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Wabbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2D05C21984B4D500608275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Wabbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB2D05C41984B4D500608275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wabbit.app/Wabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WabbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EB2D05C51984B4D500608275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wabbit.app/Wabbit";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WabbitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2D059B1984B4D500608275 /* Build configuration list for PBXProject "Wabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D05BE1984B4D500608275 /* Debug */,
+				EB2D05BF1984B4D500608275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2D05C01984B4D500608275 /* Build configuration list for PBXNativeTarget "Wabbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D05C11984B4D500608275 /* Debug */,
+				EB2D05C21984B4D500608275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB2D05C31984B4D500608275 /* Build configuration list for PBXNativeTarget "WabbitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D05C41984B4D500608275 /* Debug */,
+				EB2D05C51984B4D500608275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2D05981984B4D500608275 /* Project object */;
+}
